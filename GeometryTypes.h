@@ -17,7 +17,6 @@ namespace geometry
         /*
         * GeomType, an enum (class for being a strong type) object to specify which type it is.
         * Possible to acquire the type at run time.
-        * when adding a new 
         */
         enum class GeomType : short { UnspecifiedType = 0, PointType, CircleType };
 
