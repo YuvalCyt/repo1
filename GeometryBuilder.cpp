@@ -25,7 +25,6 @@ namespace geometry
         }        
         case Base::GeomType::UnspecifiedType:
         default:
-            //todo: report/assert/throw according to the application's architecture
             break;
         }
 
