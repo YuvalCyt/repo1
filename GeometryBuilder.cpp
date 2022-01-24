@@ -25,6 +25,7 @@ namespace geometry
         }        
         case Base::GeomType::UnspecifiedType:
         default:
+            assert(0 && "unhandled type");
             break;
         }
 
